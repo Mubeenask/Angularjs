@@ -1,0 +1,26 @@
+{
+  "name": "smubeena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-mocks": "^1.7.2",
+    "angular-ui-router": "^0.2.18",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jasmine-core": "^3.1.0",
+    "karma-jasmine": "^1.1.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

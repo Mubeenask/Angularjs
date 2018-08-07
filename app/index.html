@@ -1,0 +1,20 @@
+<html>  
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Http data</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+		<script src="node_modules/angular/angular.js"></script>
+		<script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+		<script type="text/javascript" src = "app.js"></script>
+	</head>
+	<body>
+		<h2>Http Example</h2>
+		<div ng-app = "mainApp" ng-controller = "myController">
+			<button ng-click='loadJson()'>Load Data</button>
+			<p>All Data: {{data}}</p>
+			<p>Name : {{data.name}}</p>
+			<p>Designation : {{data.designation}}</p>
+		</div>
+	</body>
+
+</html>
